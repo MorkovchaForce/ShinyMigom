@@ -1,0 +1,33 @@
+.swiper-container {
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+}
+.slider-buttons {
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	margin: 50px 0px 0px 0px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+	width: 32px;
+	height: 32px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.swiper-button-prev {
+	left: auto;
+	right: 55px;
+	padding: 0px 2px 0px 0px;
+}
+.swiper-button-next {
+	padding: 0px 0px 0px 2px;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 14px;
+	color: #17181C;
+	font-weight: 700;
+}
